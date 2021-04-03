@@ -38,4 +38,15 @@ public class Ccuenta {
 	public String getCuenta() {
 		return cuenta;
 	}
+	
+	//Método que me devuelve el nombre del titular de la cuenta
+	public String getNombre() {
+		return nombre;
+	}
+	
+	//Método que me devuelve el tipo de interés
+	public double getTipoInteres() {
+		return tipoInteres;
+	}
+	
 }
